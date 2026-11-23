@@ -1,0 +1,28 @@
+:root {
+    --bg-cinema-black: #070b14;
+    --bg-cinema-navy: #0e1a2f;
+    --accent-cyan: #38bdf8;
+}
+
+body {
+    background-color: var(--bg-cinema-black);
+    color: #f8fafc;
+}
+
+.bg-navy {
+    background-color: var(--bg-cinema-navy) !important;
+}
+
+.seat {
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.seat-available { background-color: #16a34a; color: #fff; }
+.seat-booked    { background-color: #dc2626; color: #fff; }
+.seat-selected  { background-color: #2563eb; color: #fff; }
+.seat-disabled  { background-color: #6b7280; color: #fff; }
+.seat-premium   { background-color: #eab308; color: #111827; }
